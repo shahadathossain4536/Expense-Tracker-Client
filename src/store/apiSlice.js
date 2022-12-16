@@ -3,8 +3,8 @@ import {
   fakeBaseQuery,
   fetchBaseQuery,
 } from "@reduxjs/toolkit/query/react";
-
-const baseURI = "http://localhost:8080";
+//https://expense-tracker-server-hqza.onrender.com/
+const baseURI = "https://expense-tracker-server-hqza.onrender.com";
 export const apiSlice = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: baseURI,
